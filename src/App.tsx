@@ -1,24 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import { Typography } from "@mui/material";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Typography variant="h1"> test one </Typography>
+      <Typography variant="h2"> test two </Typography>
+      <Typography variant="h3"> test three </Typography>
+      <Typography variant="h4"> test four </Typography>
+      <Typography variant="h5"> test five </Typography>
+      <Typography variant="h6"> test six </Typography>
+
+      <Typography variant="subtitle1"> test five </Typography>
+      <Typography variant="subtitle2"> test six </Typography>
+
+      <Typography variant="body1">
+        {" "}
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi,
+        molestias quasi fuga animi ab error quo. Eaque tenetur repellendus
+        voluptas, earum possimus porro at perferendis ullam sed architecto
+        perspiciatis ad?{" "}
+      </Typography>
+      <Typography variant="body2">
+        {" "}
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
+        fugiat voluptatibus vitae molestias quae iure sunt dicta delectus
+        perspiciatis quasi excepturi quas nulla commodi nesciunt asperiores,
+        dolore, aliquid porro earum.{" "}
+      </Typography>
     </div>
   );
 }

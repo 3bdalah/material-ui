@@ -1,4 +1,4 @@
-import { Button, IconButton, Stack } from "@mui/material";
+import { Button, IconButton, Stack, ButtonGroup } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
 export default function ButtonMui() {
   return (
@@ -56,6 +56,18 @@ export default function ButtonMui() {
         <IconButton arial-label="send" color="info" size="small">
           <SendIcon />
         </IconButton>
+      </Stack>
+      <Stack direction="row">
+        <ButtonGroup
+          variant="contained"
+          orientation="vertical"
+          size="small"
+          color="secondary"
+        >
+          <Button onClick={() => {}}>Left </Button>
+          <Button>Center </Button>
+          <Button>Right </Button>
+        </ButtonGroup>
       </Stack>
     </Stack>
   );
